@@ -65,8 +65,16 @@ footer, header, hgroup, menu, nav, section {
 
 html {
     font-family: 'pw_centra_no2book';
-    background-color: #053e6a;
     margin: 0 auto;
+    background-image: url(images/downtown.jpg);
+    background-size: cover;
+    background-position-y: -8em;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
 }
 
 body {
@@ -79,10 +87,6 @@ body {
 }
 
 .headline-container {
-    background-image: url(images/downtown.jpg);
-    background-size: cover;
-    background-position-y: -8em;
-    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -98,6 +102,27 @@ body {
     font-family: 'pw_centra_no2bold';
     padding: 1em 3em;
     filter: drop-shadow(6px 6px 4px #000);
+}
+
+
+.risk {
+    background-color: rgba(5, 62, 106); 
+    margin-top: 20vh;
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opportunity {
+    background-color: rgba(5, 62, 106);
+    background-attachment: fixed;
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo {
@@ -116,4 +141,15 @@ footer {
     width: 100vw;
     justify-content:space-between ;
     padding: 1em 2em;
+}
+
+ul {
+    text-align: center;
+    width: 100vw;
+    color: #fff;
+    font-size: 2em;
+}
+
+li {
+    padding-top: 1em;
 }
