@@ -724,8 +724,8 @@ and (max-device-width: 812px)
 {
   body {
     background-image: url(images/downtown-mobile.jpg);
-    background-size: cover;
-    min-height: 100%;     
+    background-size: 100% 100%;
+    height: 100vh;     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -922,8 +922,8 @@ and (max-device-width: 450px)
 {
   body {
     background-image: url(images/downtown-mobile.jpg);
-    background-size: cover;
-    min-height: 100%;     
+    background-size: 100% 100%;
+    height: 100vh;     
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1018,12 +1018,12 @@ and (max-device-width: 450px)
 }
 
 .feedback {
-height: 180vh;
+height: 210vh;
 }
 
 .opportunity {
   background-color: rgba(5, 62, 106);
-  height: 140vh;
+  height: 160vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -1034,14 +1034,14 @@ height: 180vh;
 width: 100%;
 height: 100%;
 position: absolute;
-top: 615vh;
+top: 665vh;
 }
 
 .slideshow li span {
 width: 100%;
 height: 100%;
 position: absolute;
-top: 500vh; 
+top: 550vh; 
 }
 
 .team-member {
