@@ -723,10 +723,7 @@ titleAnimation { 0% {
 and (max-device-width: 812px) 
  {
     body {
-      background-size: cover;
-      background-position-y: top;
-      background-position-x: -80vw;
-      
+      background-size: cover;      
     }
     .button {
       padding: 5vw;
@@ -741,6 +738,39 @@ and (max-device-width: 812px)
       margin-top: 5vw;
       width: 100vw;
       flex-direction: column;
+      
+    }
+
+    .feedback-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 2vw;
+    }
+
+    .am-fb {
+      margin: 3vw auto;
+      min-width: 50vw;
+      text-align: center;
+      color: #fff;
+      border: 3px solid #fff;
+      border-radius: 5px;
+      padding: 1vw
+    }
+
+    .am-fb h2 {
+      font-family: 'pw_centra_no2bold';
+      font-size: 6vw;
+    }
+    .am-fb h3 {
+      margin-top: 1.5vw;
+      font-family: 'pw_centra_no2bold';
+      font-size: 4vw;
+    }
   
+    .am-fb h4 {
+      line-height: 3.4vw;
+      padding: .3vw;
+      font-size: 3vw;
     }
 }
