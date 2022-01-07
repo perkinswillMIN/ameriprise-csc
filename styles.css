@@ -84,7 +84,7 @@ width: 100vw;
   height: 100vh;
   width: 100vw;
   
-  background-image: url(images/downtown.jpg);
+background-image: url(images/downtown.jpg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -727,14 +727,11 @@ iframe {
 @media only screen 
 and (max-device-width: 812px) 
 {
-  body {
+  .headline-container {
     background-image: url(images/downtown-mobile.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: auto 100vh;
-    -webkit-background-size: auto 100vh;
-    -moz-background-size: auto 100vh;
-    -o-background-size: auto 100vh;
+    background-size: cover;
     min-height: 100vh;     
   }
 
@@ -926,16 +923,8 @@ height: 100vh;
 @media only screen 
 and (max-device-width: 450px) 
 {
-  body {
+  .headline-container {
     background-image: url(images/downtown-mobile.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    min-height: 100vh;    
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-attachment: scroll;
   }
 
 
