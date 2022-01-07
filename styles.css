@@ -724,7 +724,8 @@ and (max-device-width: 812px)
 {
   body {
     background-image: url(images/downtown-mobile.jpg);
-    background-size: auto auto;     
+    background-size: cover;
+    min-height: 100%;     
   }
 
 
