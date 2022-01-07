@@ -815,7 +815,7 @@ and (max-device-width: 812px)
 }
 
 .feedback {
-  height: 300vh;
+  height: 250vh;
 }
 
 .opportunity {
@@ -831,14 +831,14 @@ and (max-device-width: 812px)
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 856vh;
+  top: 790vh;
 }
 
 .slideshow li span {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 740vh; 
+  top: 680vh; 
 }
 
 .team-member {
