@@ -723,7 +723,8 @@ titleAnimation { 0% {
 and (max-device-width: 812px) 
  {
     body {
-      background-size: cover;      
+      background-size: cover;
+      background-position: top;      
     }
     .button {
       padding: 5vw;
