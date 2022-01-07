@@ -724,11 +724,11 @@ and (max-device-width: 812px)
 {
   body {
     background-image: url(images/downtown-mobile.jpg);
-    background-size: 100% 100%;
+    background-size: auto auto;
     height: 100vh;     
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
+    -webkit-background-size: auto auto;
+    -moz-background-size: auto auto;
+    -o-background-size: auto auto;
   }
 
 
@@ -921,11 +921,12 @@ and (max-device-width: 450px)
 {
   body {
     background-image: url(images/downtown-mobile.jpg);
-    background-size: 100% 100%;
+    background-size: auto auto;
+    background-position: center;
     height: 100vh;     
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
+    -webkit-background-size: auto auto;
+    -moz-background-size: auto auto;
+    -o-background-size: auto auto;
   }
 
 
