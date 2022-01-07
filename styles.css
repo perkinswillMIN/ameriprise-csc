@@ -729,6 +729,9 @@ and (max-device-width: 812px)
     background-size: cover;
     min-height: 100vh;     
     background-attachment: fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
 
 
@@ -926,6 +929,9 @@ and (max-device-width: 450px)
     background-position: center center;
     min-height: 100vh;    
     background-attachment: fixed !important; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
 
 
