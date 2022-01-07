@@ -726,6 +726,10 @@ and (max-device-width: 812px)
     background-image: url(images/downtown-mobile.jpg);
     background-size: cover;
     min-height: 100%;     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
 
@@ -920,6 +924,10 @@ and (max-device-width: 450px)
     background-image: url(images/downtown-mobile.jpg);
     background-size: cover;
     min-height: 100%;     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
 
