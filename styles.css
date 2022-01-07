@@ -83,15 +83,7 @@ body {
 }
 
 
-@media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 812px) 
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) {
-    body {
-      background-size: 100%;
-    }
-}
+
 
 .main-container {
   width: 100vw;
@@ -726,3 +718,27 @@ titleAnimation { 0% {
     padding: .3vw;
     font-size: 1.2vw;
   }
+
+  @media only screen 
+and (max-device-width: 812px) 
+ {
+    body {
+      background-size: cover;
+      background-position-y: top;
+      background-position-x: -80vw;
+      
+    }
+    .button {
+      padding: 5vw;
+      font-size: 3vw;
+      color: rgba(5, 62, 106);
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    
+    .buttons-container {
+      margin-top: 7vw;
+      width: 100vw;
+  
+    }
+}
