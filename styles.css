@@ -724,7 +724,7 @@ and (max-device-width: 812px)
  {
     body {
       background-image: url(images/downtown-mobile.jpg);
-      background-size: 100%;
+      background-size: cover;
       background-position: top;      
     }
     .button {
@@ -806,7 +806,7 @@ and (max-device-width: 812px)
 .risk {
     background-color: rgba(5, 62, 106); 
     margin-top: 20vh;
-    height: 90vh;
+    height: 110vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -819,7 +819,7 @@ and (max-device-width: 812px)
 
 .opportunity {
     background-color: rgba(5, 62, 106);
-    height: 210vh;
+    height: 220vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -830,18 +830,18 @@ and (max-device-width: 812px)
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 830vh;
+  top: 845vh;
 }
 
 .slideshow li span {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 720vh; 
+  top: 755vh; 
 }
 
 .team-member {
-  margin: 3vw auto;
+  margin: 4vw auto 0 auto;
   width: 50%;
 }
 
@@ -865,6 +865,22 @@ and (max-device-width: 812px)
   background-color: rgba(5, 62, 106);
   width: 100vw;
   height: 110vh;
+}
+
+.workplace {
+  height: 110vh;
+}
+
+ul {
+  text-align: center;
+  width: 100vw;
+  color: #fff;
+  font-size: 3.5vw;
+  margin-top: 4vw;
+}
+
+li {
+  padding: 3vw
 }
 
 }
