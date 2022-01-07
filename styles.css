@@ -724,8 +724,9 @@ and (max-device-width: 812px)
 {
   body {
     background-image: url(images/downtown-mobile.jpg);
+    background-position: center center;
     background-size: 100% auto;
-    height: 100vh;     
+    min-height: 100vh;     
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
@@ -922,8 +923,8 @@ and (max-device-width: 450px)
   body {
     background-image: url(images/downtown-mobile.jpg);
     background-size: 100% auto;
-    background-position: center;
-    height: 100vh;     
+    background-position: center center;
+    min-height: 100vh;     
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
