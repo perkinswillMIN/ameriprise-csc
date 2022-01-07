@@ -903,4 +903,9 @@ ul {
   background-color: rgba(5, 62, 106, .7);
   padding-top: 30vh;
 }
+
+.headline-container {
+  height: 115vh;
  }
+
+}
