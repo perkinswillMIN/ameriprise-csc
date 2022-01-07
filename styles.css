@@ -780,7 +780,6 @@ and (max-device-width: 812px)
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      padding-left: 0;
       margin-top: 5vw;
   }
 
@@ -806,7 +805,7 @@ and (max-device-width: 812px)
 .risk {
     background-color: rgba(5, 62, 106); 
     margin-top: 20vh;
-    height: 110vh;
+    height: 120vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -830,14 +829,14 @@ and (max-device-width: 812px)
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 845vh;
+  top: 876vh;
 }
 
 .slideshow li span {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 755vh; 
+  top: 760vh; 
 }
 
 .team-member {
@@ -864,11 +863,14 @@ and (max-device-width: 812px)
 .first-floor {
   background-color: rgba(5, 62, 106);
   width: 100vw;
-  height: 110vh;
+  height: 115vh;
+  margin-top: -5vw;
+  padding-top: 6vw;
 }
 
 .workplace {
-  height: 110vh;
+  height: 105vh;
+  padding-top: 6vw;
 }
 
 ul {
@@ -879,8 +881,26 @@ ul {
   margin-top: 4vw;
 }
 
-li {
+.risk li {
   padding: 3vw
 }
 
+.slide-title {
+  font-family: 'pw_centra_no2bold';
+  color: rgba(5, 62, 106);
+  padding: 2vw;
+  font-size: 4vw;
+  position: absolute;
+  z-index: 3;
+  filter: drop-shadow(2px 2px 4px #000);
+
+
 }
+
+.links {
+  height: 250vh;
+  width: 100vw;
+  background-color: rgba(5, 62, 106, .7);
+  padding-top: 30vh;
+}
+ }
