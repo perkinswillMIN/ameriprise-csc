@@ -724,8 +724,10 @@ and (max-device-width: 812px)
  {
     body {
       background-image: url(images/downtown-mobile.jpg);
-      background-size: auto;     
+      background-size: 100% auto;     
     }
+
+
     .button {
       padding: 5vw;
       font-size: 3vw;
