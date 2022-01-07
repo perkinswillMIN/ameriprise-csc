@@ -71,8 +71,8 @@ html {
 body {
   margin: 0 auto;
   background-image: url(images/downtown.jpg);
-  background-size: cover;
-  background-position-y: -8em;
+  background-size: auto auto;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: absolute;
