@@ -1,701 +1,759 @@
 @font-face {
-    font-family: 'pw_centra_no2bold';
-    src: url('fonts/pwcentrano2-bold-webfont.woff2') format('woff2'),
-         url('fonts/pwcentrano2-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'pw_centra_no2bold';
+  src: url('fonts/pwcentrano2-bold-webfont.woff2') format('woff2'),
+       url('fonts/pwcentrano2-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'pw_centra_no2bold_italic';
-    src: url('fonts/pwcentrano2-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/pwcentrano2-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'pw_centra_no2book';
-    src: url('fonts/pwcentrano2-book-webfont.woff2') format('woff2'),
-         url('fonts/pwcentrano2-book-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'pw_centra_no2bold_italic';
+  src: url('fonts/pwcentrano2-bolditalic-webfont.woff2') format('woff2'),
+       url('fonts/pwcentrano2-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
 
 @font-face {
-    font-family: 'pw_centra_no2italic';
-    src: url('fonts/pwcentrano2-bookitalic-webfont.woff2') format('woff2'),
-         url('fonts/pwcentrano2-bookitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'pw_centra_no2book';
+  src: url('fonts/pwcentrano2-book-webfont.woff2') format('woff2'),
+       url('fonts/pwcentrano2-book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'pw_centra_no2italic';
+  src: url('fonts/pwcentrano2-bookitalic-webfont.woff2') format('woff2'),
+       url('fonts/pwcentrano2-bookitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'pw_serifbold';
-    src: url('fonts/pwserif-bold-webfont.woff2') format('woff2'),
-         url('fonts/pwserif-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'pw_serifbold';
+  src: url('fonts/pwserif-bold-webfont.woff2') format('woff2'),
+       url('fonts/pwserif-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
 *, *:after, *:before {
-    margin: 0;
-    padding: 0;
-    border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 
 
 
 html {
-    font-family: 'pw_centra_no2book';
-    
+  font-family: 'pw_centra_no2book';
+  
 }
 
 body {
-  margin: 0 auto;
-  background-image: url(images/downtown.jpg);
-  background-size: auto auto;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  position: absolute;
-  z-index: -1;
-  height: 100vh;
-  width: 100vw;
-    overflow-x: hidden;
+margin: 0 auto;
+background-image: url(images/downtown.jpg);
+background-size: auto auto;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+position: absolute;
+z-index: -1;
+height: 100vh;
+width: 100vw;
+  overflow-x: hidden;
 }
 
 
 
 
 .main-container {
-  width: 100vw;
+width: 100vw;
 }
 
 .headline-container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .headline {
-    color: #fff;
-    font-size: 5.5vw;
-    line-height: 7vw;
-    text-align: center;
-    font-family: 'pw_centra_no2bold';
-    padding: 1em 3em 0em 3em;
-    filter: drop-shadow(6px 6px 4px #000);
+  color: #fff;
+  font-size: 5.5vw;
+  line-height: 7vw;
+  text-align: center;
+  font-family: 'pw_centra_no2bold';
+  padding: 1em 3em 0em 3em;
+  filter: drop-shadow(6px 6px 4px #000);
 }
 
 
 .risk {
-    background-color: rgba(5, 62, 106); 
-    margin-top: 20vh;
-    height: 110vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-color: rgba(5, 62, 106); 
+  margin-top: 20vh;
+  height: 110vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .opportunity {
-    background-color: rgba(5, 62, 106);
-    height: 230vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-color: rgba(5, 62, 106);
+  height: 230vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
 
 .logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo img {
-    width: 15vw;
+  width: 15vw;
 }
 footer {
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    width: 100vw;
-    justify-content:space-between ;
-    padding: 1em 2em;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100vw;
+  justify-content:space-between ;
+  padding: 1em 2em;
 }
 
 ul {
-    text-align: center;
-    width: 100vw;
-    color: #fff;
-    font-size: 2.5vw;
+  text-align: center;
+  width: 100vw;
+  color: #fff;
+  font-size: 2.5vw;
 }
 
 li {
-    padding-top: 1.2vw;
+  padding-top: 1.2vw;
 }
 
 .first-floor {
-    background-color: rgba(5, 62, 106);
-    width: 100vw;
-    height: 110vh;
+  background-color: rgba(5, 62, 106);
+  width: 100vw;
+  height: 110vh;
 }
 
 .slideshow {
-    list-style: none;
-    z-index: 1;
-  }
-  
-  .slideshow li span {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 570vh;
-    left: 0px;
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: none;
-    opacity: 0;
-    z-index: 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s;
-  }
-  
-  .no-cssanimations .slideshow li span { opacity: 1; }
+  list-style: none;
+  z-index: 1;
+}
 
-  @-webkit-keyframes 
+.slideshow li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 570vh;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-animation: imageAnimation 36s linear infinite 0s;
+  -moz-animation: imageAnimation 36s linear infinite 0s;
+  animation: imageAnimation 36s linear infinite 0s;
+}
+
+.no-cssanimations .slideshow li span { opacity: 1; }
+
+@-webkit-keyframes 
 imageAnimation { 0% {
- opacity: 0;
- -webkit-animation-timing-function: ease-in;
+opacity: 0;
+-webkit-animation-timing-function: ease-in;
 }
- 12.5% {
- opacity: 1;
- -webkit-animation-timing-function: ease-out;
+12.5% {
+opacity: 1;
+-webkit-animation-timing-function: ease-out;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @-moz-keyframes 
 imageAnimation { 0% {
- opacity: 0;
- -moz-animation-timing-function: ease-in;
+opacity: 0;
+-moz-animation-timing-function: ease-in;
 }
- 12.5% {
- opacity: 1;
- -moz-animation-timing-function: ease-out;
+12.5% {
+opacity: 1;
+-moz-animation-timing-function: ease-out;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @keyframes 
 imageAnimation { 0% {
- opacity: 0;
- -webkit-animation-timing-function: ease-in;
- -moz-animation-timing-function: ease-in;
- animation-timing-function: ease-in;
+opacity: 0;
+-webkit-animation-timing-function: ease-in;
+-moz-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
 }
- 12.5% {
- opacity: 1;
- -webkit-animation-timing-function: ease-out;
- -moz-animation-timing-function: ease-out;
- animation-timing-function: ease-out;
+12.5% {
+opacity: 1;
+-webkit-animation-timing-function: ease-out;
+-moz-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @-webkit-keyframes 
 titleAnimation { 0% {
- opacity: 0;
+opacity: 0;
 }
- 12.5% {
- opacity: 1;
+12.5% {
+opacity: 1;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @-moz-keyframes 
 titleAnimation { 0% {
- opacity: 0;
+opacity: 0;
 }
- 12.5% {
- opacity: 1;
+12.5% {
+opacity: 1;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @keyframes 
 titleAnimation { 0% {
- opacity: 0;
+opacity: 0;
 }
- 12.5% {
- opacity: 1;
+12.5% {
+opacity: 1;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 .slideshow li:nth-child(1) span { background-image: url(images/L1\ Opt\ 1\ Porch.jpg); }
 
 .slideshow li:nth-child(2) span {
-  background-image: url(images/L1\ Opt\ 1\ Vw\ 1.jpg);
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  animation-delay: 4s;
+background-image: url(images/L1\ Opt\ 1\ Vw\ 1.jpg);
+-webkit-animation-delay: 4s;
+-moz-animation-delay: 4s;
+animation-delay: 4s;
 }
 
 .slideshow li:nth-child(3) span {
-  background-image: url(images/L1\ Opt\ 1\ Vw\ 4.jpg);
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s;
+background-image: url(images/L1\ Opt\ 1\ Vw\ 4.jpg);
+-webkit-animation-delay: 8s;
+-moz-animation-delay: 8s;
+animation-delay: 8s;
 }
 
 .slideshow li:nth-child(4) span {
-  background-image: url(images/L1\ Opt\ 1\ Vw\ 5.jpg);
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  animation-delay: 12s;
+background-image: url(images/L1\ Opt\ 1\ Vw\ 5.jpg);
+-webkit-animation-delay: 12s;
+-moz-animation-delay: 12s;
+animation-delay: 12s;
 }
 
 .slideshow li:nth-child(5) span {
-    background-image: url(images/L1\ Opt\ 1\ Vw\ 6.jpg);
-    -webkit-animation-delay: 16s;
-    -moz-animation-delay: 16s;
-    animation-delay: 16s;
-  }
+  background-image: url(images/L1\ Opt\ 1\ Vw\ 6.jpg);
+  -webkit-animation-delay: 16s;
+  -moz-animation-delay: 16s;
+  animation-delay: 16s;
+}
 
-  .slideshow li:nth-child(6) span {
-    background-image: url(images/L1\ Opt\ 2\ Vw\ 2.jpg);
-    -webkit-animation-delay: 20s;
-    -moz-animation-delay: 20s;
-    animation-delay: 20s;
-  }
+.slideshow li:nth-child(6) span {
+  background-image: url(images/L1\ Opt\ 2\ Vw\ 2.jpg);
+  -webkit-animation-delay: 20s;
+  -moz-animation-delay: 20s;
+  animation-delay: 20s;
+}
 
-  .slideshow li:nth-child(7) span {
-    background-image: url(images/L1\ Opt\ 2\ Vw\ 3.jpg);
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    animation-delay: 24s;
-  }
+.slideshow li:nth-child(7) span {
+  background-image: url(images/L1\ Opt\ 2\ Vw\ 3.jpg);
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  animation-delay: 24s;
+}
 
-  .slideshow li:nth-child(8) span {
-    background-image: url(images/L1\ Opt\ 2\ Vw\ 5.jpg);
-    -webkit-animation-delay: 28s;
-    -moz-animation-delay: 28s;
-    animation-delay: 28s;
-  }
+.slideshow li:nth-child(8) span {
+  background-image: url(images/L1\ Opt\ 2\ Vw\ 5.jpg);
+  -webkit-animation-delay: 28s;
+  -moz-animation-delay: 28s;
+  animation-delay: 28s;
+}
 
-  .slideshow li:nth-child(9) span {
-    background-image: url(images/L1\ Opt\ 2\ Vw\ 6.jpg);
-    -webkit-animation-delay: 32s;
-    -moz-animation-delay: 32s;
-    animation-delay: 32s;
-  }
-
-
-  .slide-title {
-      font-family: 'pw_centra_no2bold';
-      color: rgba(5, 62, 106);
-      padding: 1.4vw;
-      font-size: 2.2vw;
-      position: absolute;
-      z-index: 3;
-      filter: drop-shadow(2px 2px 4px #000);
-
-  }
+.slideshow li:nth-child(9) span {
+  background-image: url(images/L1\ Opt\ 2\ Vw\ 6.jpg);
+  -webkit-animation-delay: 32s;
+  -moz-animation-delay: 32s;
+  animation-delay: 32s;
+}
 
 
-  .workplace {
-    background-color: rgba(5, 62, 106);
-    width: 100vw;
-    height: 100vh;
+.slide-title {
+    font-family: 'pw_centra_no2bold';
+    color: rgba(5, 62, 106);
+    padding: 1.4vw;
+    font-size: 2.2vw;
+    position: absolute;
+    z-index: 3;
+    filter: drop-shadow(2px 2px 4px #000);
+
+}
+
+
+.workplace {
+  background-color: rgba(5, 62, 106);
+  width: 100vw;
+  height: 100vh;
 }
 
 .slideshow-wp {
-    list-style: none;
-    z-index: 1;
-  }
-  
-  .slideshow-wp li span {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 680vh;
-    left: 0px;
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: none;
-    opacity: 0;
-    z-index: 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-animation: imageAnimation 32s linear infinite 0s;
-    -moz-animation: imageAnimation 32s linear infinite 0s;
-    animation: imageAnimation 32s linear infinite 0s;
-  }
-  
-  .no-cssanimations .slideshow-wp li span { opacity: 1; }
+  list-style: none;
+  z-index: 1;
+}
 
-  @-webkit-keyframes 
+.slideshow-wp li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 680vh;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-animation: imageAnimation 32s linear infinite 0s;
+  -moz-animation: imageAnimation 32s linear infinite 0s;
+  animation: imageAnimation 32s linear infinite 0s;
+}
+
+.no-cssanimations .slideshow-wp li span { opacity: 1; }
+
+@-webkit-keyframes 
 imageAnimation { 0% {
- opacity: 0;
- -webkit-animation-timing-function: ease-in;
+opacity: 0;
+-webkit-animation-timing-function: ease-in;
 }
- 12.5% {
- opacity: 1;
- -webkit-animation-timing-function: ease-out;
+12.5% {
+opacity: 1;
+-webkit-animation-timing-function: ease-out;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @-moz-keyframes 
 imageAnimation { 0% {
- opacity: 0;
- -moz-animation-timing-function: ease-in;
+opacity: 0;
+-moz-animation-timing-function: ease-in;
 }
- 12.5% {
- opacity: 1;
- -moz-animation-timing-function: ease-out;
+12.5% {
+opacity: 1;
+-moz-animation-timing-function: ease-out;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @keyframes 
 imageAnimation { 0% {
- opacity: 0;
- -webkit-animation-timing-function: ease-in;
- -moz-animation-timing-function: ease-in;
- animation-timing-function: ease-in;
+opacity: 0;
+-webkit-animation-timing-function: ease-in;
+-moz-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
 }
- 12.5% {
- opacity: 1;
- -webkit-animation-timing-function: ease-out;
- -moz-animation-timing-function: ease-out;
- animation-timing-function: ease-out;
+12.5% {
+opacity: 1;
+-webkit-animation-timing-function: ease-out;
+-moz-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @-webkit-keyframes 
 titleAnimation { 0% {
- opacity: 0;
+opacity: 0;
 }
- 12.5% {
- opacity: 1;
+12.5% {
+opacity: 1;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @-moz-keyframes 
 titleAnimation { 0% {
- opacity: 0;
+opacity: 0;
 }
- 12.5% {
- opacity: 1;
+12.5% {
+opacity: 1;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 @keyframes 
 titleAnimation { 0% {
- opacity: 0;
+opacity: 0;
 }
- 12.5% {
- opacity: 1;
+12.5% {
+opacity: 1;
 }
- 25% {
- opacity: 1;
+25% {
+opacity: 1;
 }
- 37.5% {
- opacity: 0;
+37.5% {
+opacity: 0;
 }
- 100% {
- opacity: 0;
+100% {
+opacity: 0;
 }
 }
 
 .slideshow-wp li:nth-child(1) span { background-image: url(images/L3\ Break\ room\ to\ Terrace.jpg); }
 
 .slideshow-wp li:nth-child(2) span {
-  background-image: url(images/L6\ -\ Workplace\ S\ 1.jpg);
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  animation-delay: 4s;
+background-image: url(images/L6\ -\ Workplace\ S\ 1.jpg);
+-webkit-animation-delay: 4s;
+-moz-animation-delay: 4s;
+animation-delay: 4s;
 }
 
 .slideshow-wp li:nth-child(3) span {
-  background-image: url(images/L6\ -\ Workplace\ S\ 2.jpg);
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s;
+background-image: url(images/L6\ -\ Workplace\ S\ 2.jpg);
+-webkit-animation-delay: 8s;
+-moz-animation-delay: 8s;
+animation-delay: 8s;
 }
 
 .slideshow-wp li:nth-child(4) span {
-  background-image: url(images/L6\ -\ Workplace\ S\ at\ E\ Garden.jpg);
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  animation-delay: 12s;
+background-image: url(images/L6\ -\ Workplace\ S\ at\ E\ Garden.jpg);
+-webkit-animation-delay: 12s;
+-moz-animation-delay: 12s;
+animation-delay: 12s;
 }
 
 .slideshow-wp li:nth-child(5) span {
-    background-image: url(images/L6\ -\ Workplace\ S\ at\ E\ Garden\ 2.jpg);
-    -webkit-animation-delay: 16s;
-    -moz-animation-delay: 16s;
-    animation-delay: 16s;
-  }
+  background-image: url(images/L6\ -\ Workplace\ S\ at\ E\ Garden\ 2.jpg);
+  -webkit-animation-delay: 16s;
+  -moz-animation-delay: 16s;
+  animation-delay: 16s;
+}
 
-  .slideshow-wp li:nth-child(6) span {
-    background-image: url(images/L6\ ATRIUM\ E.jpg);
-    -webkit-animation-delay: 20s;
-    -moz-animation-delay: 20s;
-    animation-delay: 20s;
-  }
+.slideshow-wp li:nth-child(6) span {
+  background-image: url(images/L6\ ATRIUM\ E.jpg);
+  -webkit-animation-delay: 20s;
+  -moz-animation-delay: 20s;
+  animation-delay: 20s;
+}
 
-  .slideshow-wp li:nth-child(7) span {
-    background-image: url(images/L6\ From\ Elev\ Lobby\ to\ S.jpg);
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    animation-delay: 24s;
-  }
+.slideshow-wp li:nth-child(7) span {
+  background-image: url(images/L6\ From\ Elev\ Lobby\ to\ S.jpg);
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  animation-delay: 24s;
+}
 
-  .slideshow-wp li:nth-child(8) span {
-    background-image: url(images/L7\ Atrium\ E.jpg);
-    -webkit-animation-delay: 28s;
-    -moz-animation-delay: 28s;
-    animation-delay: 28s;
-  }
+.slideshow-wp li:nth-child(8) span {
+  background-image: url(images/L7\ Atrium\ E.jpg);
+  -webkit-animation-delay: 28s;
+  -moz-animation-delay: 28s;
+  animation-delay: 28s;
+}
 
-  .links {
-      height: 250vh;
-      width: 100vw;
-      background-color: rgba(5, 62, 106, .7);
-      padding-top: 50vh;
-  }
-
-
-  iframe {
-      display: block;
-      margin: -6vw auto 6vw auto;
-      width: 80vw;
-      height: 70vh;
-  }
+.links {
+    height: 250vh;
+    width: 100vw;
+    background-color: rgba(5, 62, 106, .7);
+    padding-top: 50vh;
+}
 
 
+iframe {
+    display: block;
+    margin: -6vw auto 6vw auto;
+    width: 80vw;
+    height: 70vh;
+}
 
-  .team img {
-      display: block;
-      padding: 0 3vw 0 3vw;
-      height: 100%;
+
+
+.team img {
+    display: block;
+    padding: 0 3vw 0 3vw;
+    height: 100%;
+}
+
+
+.button {
+  padding: 2vw;
+  font-size: 1.7vw;
+  color: rgba(5, 62, 106);
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.buttons-container a {
+  text-align: center;
+  font-family: 'pw_centra_no2bold';
+  text-decoration: none;
+  padding: 1vw;
+  margin: 0em 4vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(5, 62, 106);
+  border: 3px solid #fff;
+}
+
+.buttons-container {
+  margin-top: 7vw;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 5vw;
+}
+
+.team-member {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.team-member img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.team-member h2 {
+  margin-top: 2vw;
+  font-size: 2vw;
+  font-family: 'pw_centra_no2bold';
+  text-align: center;
+  color: #fff;
+}
+
+.team-member h3 {
+  margin-top: 1.5vw;
+  font-size: 1.4vw;
+  font-family: 'pw_centra_no2italic';
+  text-align: center;
+  color: #fff;
+}
+
+
+.feedback {
+  background-color: rgba(5, 62, 106);
+  height: 110vh;
+  width: 100vw;
+
+}
+.feedback-container {
+  display: flex;
+  flex-flow: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2vw;
+
+}
+
+.am-fb {
+  margin: 0em 1.7vw 4vw 1.7vw;
+  max-width: 21vw;
+  flex: 21%;
+  text-align: center;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  padding: 1vw
+}
+
+.am-fb h2 {
+  font-family: 'pw_centra_no2bold';
+  font-size: 2vw;
+}
+.am-fb h3 {
+  margin-top: 1.5vw;
+  font-family: 'pw_centra_no2bold';
+  font-size: 1.5vw;
+}
+
+.am-fb h4 {
+  line-height: 1.3vw;
+  padding: .3vw;
+  font-size: 1.2vw;
+}
+
+@media only screen 
+and (max-device-width: 812px) 
+{
+  body {
+    background-image: url(images/downtown-mobile.jpg);
+    background-size: auto auto;     
   }
 
 
   .button {
-    padding: 2vw;
-    font-size: 1.7vw;
+    padding: 5vw;
+    font-size: 3vw;
     color: rgba(5, 62, 106);
     background-color: #fff;
     border-radius: 5px;
+    margin-bottom: 3vw;
   }
   
-  .buttons-container a {
-    text-align: center;
-    font-family: 'pw_centra_no2bold';
-    text-decoration: none;
-    padding: 1vw;
-    margin: 0em 4vw;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .button:hover {
-    text-decoration: none;
-    color: #fff;
-    background-color: rgba(5, 62, 106);
-    border: 3px solid #fff;
-  }
-
   .buttons-container {
-    margin-top: 7vw;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .team {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    padding-left: 0;
     margin-top: 5vw;
-}
-
-  .team-member {
-    margin: 0 auto;
-    width: 25%;
-  }
-
-  .team-member img {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-
-  .team-member h2 {
-    margin-top: 2vw;
-    font-size: 2vw;
-    font-family: 'pw_centra_no2bold';
-    text-align: center;
-    color: #fff;
-  }
-
-  .team-member h3 {
-    margin-top: 1.5vw;
-    font-size: 1.4vw;
-    font-family: 'pw_centra_no2italic';
-    text-align: center;
-    color: #fff;
-  }
-
-
-  .feedback {
-    background-color: rgba(5, 62, 106);
-    height: 110vh;
     width: 100vw;
+    flex-direction: column;
+    
+  }
 
-}
   .feedback-container {
     display: flex;
-    flex-flow: wrap;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     margin-top: 2vw;
-
   }
 
   .am-fb {
-    margin: 0em 1.7vw 4vw 1.7vw;
-    max-width: 21vw;
-    flex: 21%;
+    margin: 3vw auto;
+    min-width: 50vw;
     text-align: center;
     color: #fff;
     border: 3px solid #fff;
@@ -705,209 +763,151 @@ titleAnimation { 0% {
 
   .am-fb h2 {
     font-family: 'pw_centra_no2bold';
-    font-size: 2vw;
+    font-size: 6vw;
   }
   .am-fb h3 {
     margin-top: 1.5vw;
     font-family: 'pw_centra_no2bold';
-    font-size: 1.5vw;
+    font-size: 4vw;
   }
 
   .am-fb h4 {
-    line-height: 1.3vw;
+    line-height: 3.4vw;
     padding: .3vw;
-    font-size: 1.2vw;
+    font-size: 3vw;
   }
 
-  @media only screen 
-and (max-device-width: 812px) 
- {
-    body {
-      background-image: url(images/downtown-mobile.jpg);
-      background-size: auto auto;     
-    }
-
-
-    .button {
-      padding: 5vw;
-      font-size: 3vw;
-      color: rgba(5, 62, 106);
-      background-color: #fff;
-      border-radius: 5px;
-      margin-bottom: 3vw;
-    }
-    
-    .buttons-container {
-      margin-top: 5vw;
-      width: 100vw;
-      flex-direction: column;
-      
-    }
-
-    .feedback-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-top: 2vw;
-    }
-
-    .am-fb {
-      margin: 3vw auto;
-      min-width: 50vw;
-      text-align: center;
-      color: #fff;
-      border: 3px solid #fff;
-      border-radius: 5px;
-      padding: 1vw
-    }
-
-    .am-fb h2 {
-      font-family: 'pw_centra_no2bold';
-      font-size: 6vw;
-    }
-    .am-fb h3 {
-      margin-top: 1.5vw;
-      font-family: 'pw_centra_no2bold';
-      font-size: 4vw;
-    }
-  
-    .am-fb h4 {
-      line-height: 3.4vw;
-      padding: .3vw;
-      font-size: 3vw;
-    }
-
-    .team {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      margin-top: 0;
-  }
-
-  .headline-container {
-    height: 100vh;
-    width: 100vw;
+  .team {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+.headline-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .headline {
-    color: #fff;
-    font-size: 7.5vw;
-    line-height: 8.5vw;
-    text-align: center;
-    font-family: 'pw_centra_no2bold';
-    padding: 1em 3em 0em 3em;
-    filter: drop-shadow(6px 6px 4px #000);
+  color: #fff;
+  font-size: 7.5vw;
+  line-height: 8.5vw;
+  text-align: center;
+  font-family: 'pw_centra_no2bold';
+  padding: 1em 3em 0em 3em;
+  filter: drop-shadow(6px 6px 4px #000);
 }
 
 
 .risk {
-    background-color: rgba(5, 62, 106); 
-    height: 100vh;
-    width: 100vw;
-    margin-top: 0;
-    padding-top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-color: rgba(5, 62, 106); 
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .feedback {
-  height: 250vh;
+height: 250vh;
 }
 
 .opportunity {
-    background-color: rgba(5, 62, 106);
-    height: 220vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-color: rgba(5, 62, 106);
+  height: 220vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .slideshow-wp li span {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 785vh;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 785vh;
 }
 
 .slideshow li span {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 670vh; 
+width: 100%;
+height: 100%;
+position: absolute;
+top: 670vh; 
 }
 
 .team-member {
-  margin: 4vw auto 0 auto;
-  width: 50%;
+margin: 4vw auto 0 auto;
+width: 50%;
 }
 
 .team-member h2 {
-  margin-top: 2vw;
-  font-size: 5vw;
-  font-family: 'pw_centra_no2bold';
-  text-align: center;
-  color: #fff;
+margin-top: 2vw;
+font-size: 5vw;
+font-family: 'pw_centra_no2bold';
+text-align: center;
+color: #fff;
 }
 
 .team-member h3 {
-  margin-top: 1.5vw;
-  font-size: 4vw;
-  font-family: 'pw_centra_no2italic';
-  text-align: center;
-  color: #fff;
+margin-top: 1.5vw;
+font-size: 4vw;
+font-family: 'pw_centra_no2italic';
+text-align: center;
+color: #fff;
 }
 
 .first-floor {
-  background-color: rgba(5, 62, 106);
-  width: 100vw;
-  height: 115vh;
-  margin-top: -5vw;
-  padding-top: 6vw;
+background-color: rgba(5, 62, 106);
+width: 100vw;
+height: 115vh;
+margin-top: -5vw;
+padding-top: 6vw;
 }
 
 .workplace {
-  height: 100vh;
-  padding-top: 6vw;
+height: 100vh;
+padding-top: 6vw;
 }
 
 ul {
-  text-align: center;
-  width: 100vw;
-  color: #fff;
-  font-size: 3.5vw;
-  margin-top: 4vw;
+text-align: center;
+width: 100vw;
+color: #fff;
+font-size: 3.5vw;
+margin-top: 4vw;
 }
 
 .risk li {
-  padding: 3vw
+padding: 3vw
 }
 
 .slide-title {
-  font-family: 'pw_centra_no2bold';
-  color: rgba(5, 62, 106);
-  padding: 2vw;
-  font-size: 4vw;
-  position: absolute;
-  z-index: 3;
-  filter: drop-shadow(2px 2px 4px #000);
+font-family: 'pw_centra_no2bold';
+color: rgba(5, 62, 106);
+padding: 2vw;
+font-size: 4vw;
+position: absolute;
+z-index: 3;
+filter: drop-shadow(2px 2px 4px #000);
 
 
 }
 
 .links {
-  height: 250vh;
-  width: 100vw;
-  background-color: rgba(5, 62, 106, .7);
-  padding-top: 30vh;
+height: 250vh;
+width: 100vw;
+background-color: rgba(5, 62, 106, .7);
+padding-top: 30vh;
 }
 
 .headline-container {
-  height: 100vh;
- }
+height: 100vh;
+}
 
 }
