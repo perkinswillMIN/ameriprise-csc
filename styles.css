@@ -659,15 +659,15 @@ titleAnimation { 0% {
 
   .team-member h2 {
     margin-top: 2vw;
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: 'pw_centra_no2bold';
     text-align: center;
     color: #fff;
   }
 
   .team-member h3 {
-    margin-top: 2vw;
-    font-size: 1.9vw;
+    margin-top: 1.5vw;
+    font-size: 1.4vw;
     font-family: 'pw_centra_no2italic';
     text-align: center;
     color: #fff;
