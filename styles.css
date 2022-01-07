@@ -723,6 +723,7 @@ titleAnimation { 0% {
 and (max-device-width: 812px) 
  {
     body {
+      background-image: url(images/downtown-mobile.jpg);
       background-size: cover;
       background-position: top;      
     }
@@ -774,4 +775,12 @@ and (max-device-width: 812px)
       padding: .3vw;
       font-size: 3vw;
     }
+
+    .team {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding-left: 0;
+      margin-top: 5vw;
+  }
 }
