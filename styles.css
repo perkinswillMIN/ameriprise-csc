@@ -726,10 +726,9 @@ and (max-device-width: 812px)
     background-image: url(images/downtown-mobile.jpg);
     background-size: 100% 100%;
     height: 100vh;     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
   }
 
 
@@ -924,10 +923,9 @@ and (max-device-width: 450px)
     background-image: url(images/downtown-mobile.jpg);
     background-size: 100% 100%;
     height: 100vh;     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
   }
 
 
